@@ -4,7 +4,7 @@ function getRandomColor(colorTag) {
     const randomLetter = "123456789ABCDEF"
     let hashTag = "#";
     for (let i = 0; i < 6; i++) {
-        hashTag += randomLetter[Math.floor(Math.random() * 16)];
+        hashTag += randomLetter[Math.floor(Math.random() * 15)];
     }
     return hashTag;
 }
